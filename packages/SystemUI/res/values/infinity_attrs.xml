@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2024 Project Infinity X
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+
+    <!-- Notification counter -->
+    <color name="notification_number_text_color">#ff000000</color>
+
+    <!-- QS Panel Style -->
+    <color name="qs_translucent_bg">#59FFFFFF</color>
+    <color name="qs_white_bg">@android:color/system_neutral1_0</color>
+    
+    <declare-styleable name="WeatherTextView">
+        <attr name="weatherText" format="string" />
+    </declare-styleable>
+</resources>
